@@ -1,0 +1,9 @@
+https://www.cnblogs.com/hanfan/p/12403520.html
+
+Docker问题解决：Error response from daemon: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io: no such host
+vi /etc/resolv.conf
+添加
+
+nameserver 8.8.8.8
+
+Docker问题解决：Error response from daemon: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io: no such host
